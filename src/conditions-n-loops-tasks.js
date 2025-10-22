@@ -286,7 +286,6 @@ function isContainNumber(num, digit) {
     if (digit === remainder) isContain = true;
     currentNum /= 10;
     currentNum = Math.trunc(currentNum);
-    console.log(currentNum);
   }
   return isContain;
 }
